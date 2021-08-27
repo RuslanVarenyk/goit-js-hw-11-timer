@@ -44,7 +44,7 @@ function updateTimerFace({ days, hours, mins, secs }) {
 }
 
 const timer = new CountdownTimer({
-    dueTime: Date.parse(new Date('Jul 07, 2021')),
+    dueTime: Date.parse(new Date('Jul 07, 2022')),
     onTick: updateTimerFace,
 });
 
